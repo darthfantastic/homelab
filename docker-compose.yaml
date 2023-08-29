@@ -12,7 +12,7 @@ services:
     container_name: wg-easy
     environment:
       # Change this to your host's public address
-      - WG_HOST=www.example.com
+      - WG_HOST=vpn.example.com
       # Optional:
       - PASSWORD=P4ssw0rd
       - WG_PORT=51280
