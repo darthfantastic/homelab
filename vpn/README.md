@@ -3,7 +3,7 @@ Copy this file to your desired directory, then run:
 
 ```docker compose up -d```
 
-This file will create three containers for home VPN services
+### This file will create three containers for home VPN services
 * Cloudflare DDNS
 Will keep your Cloudflare domain synced to your host IP
   * Add your API key for Cloudflare, will need permissions to read DNS zone
@@ -12,6 +12,7 @@ Will keep your Cloudflare domain synced to your host IP
   
 * WG-Easy
 Simple Wireguard management with QR codes or configuration files
+  * Access the web configuration at `your.host.ip:51821`
 
 * Tailscale
 For Zero-trust VPN management over a wireguard framework
