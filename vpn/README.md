@@ -6,15 +6,15 @@ Copy this file to your desired directory, then run:
 This file will create three containers for home VPN services
 * Cloudflare DDNS
 Will keep your Cloudflare domain synced to your host IP
- * Add your API key for Cloudflare, will need permissions to read DNS zone
- * Zone is your domain name
- * Subdomain to match (if needed)
+  * Add your API key for Cloudflare, will need permissions to read DNS zone
+  * Zone is your domain name
+  * Subdomain to match (if needed)
   
 * WG-Easy
 Simple Wireguard management with QR codes or configuration files
 
 * Tailscale
 For Zero-trust VPN management over a wireguard framework
- * you will need to exec into the container and configure tailscale after installation:
+  * you will need to exec into the container and configure tailscale after installation:
   
 ```docker exec -it tailscale sh```
