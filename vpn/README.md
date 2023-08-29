@@ -18,4 +18,4 @@ Simple Wireguard management with QR codes or configuration files
 For Zero-trust VPN management over a wireguard framework
   * you will need to exec into the container and configure tailscale after installation:
   
-```docker exec -it tailscale sh```
+    ```docker exec -it tailscale sh```
