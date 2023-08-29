@@ -23,7 +23,7 @@ Copy this file to your desired directory, then run:
   
     ```docker exec -it tailscale sh```
 
-    Then run:
+    then run:
 
     ```tailscale up```
 
