@@ -3,7 +3,7 @@ Copy this file to your desired directory, then run:
 
 ```docker compose up -d```
 
-### This file will create three containers for home VPN services
+### This file will create three containers for home VPN services:
 #### Cloudflare DDNS
   
   Will keep your Cloudflare domain synced to your host IP
