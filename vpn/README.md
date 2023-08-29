@@ -1,6 +1,8 @@
 # Docker Compose for VPN services
-Copy this file to your desired directory, then run
-    docker compose up -d
+Copy this file to your desired directory, then run:
+
+```docker compose up -d```
+
 This file will create three containers for home VPN services
 * Cloudflare DDNS
 Will keep your Cloudflare domain synced to your host IP
@@ -11,5 +13,6 @@ Will keep your Cloudflare domain synced to your host IP
 Simple Wireguard management with QR codes or configuration files
 * Tailscale
 For Zero-trust VPN management over a wireguard framework
-* you will need to exec into the container and configure tailscale after installation:
-    docker exec -it tailscale sh
+ * you will need to exec into the container and configure tailscale after installation:
+  
+```docker exec -it tailscale sh```
