@@ -11,17 +11,19 @@ Will keep your Cloudflare domain synced to your host IP
   * Subdomain to match (if needed)
   
 * WG-Easy
+  
 Simple Wireguard management with QR codes or configuration files
   * Access the web configuration at `your.host.ip:51821`
 
 * Tailscale
-For Zero-trust VPN management over a wireguard framework
+  
+For Zero-trust VPN management over a Wireguard framework
   * you will need to exec into the container and configure tailscale after installation:
   
- ```docker exec -it tailscale sh```
+  ```docker exec -it tailscale sh```
 
- Then run:
+  Then run:
 
- ```tailscale up```
+  ```tailscale up```
 
- And follow the prompts
+  and follow the prompts
